@@ -1,0 +1,57 @@
+p {
+	color: red;
+}
+
+p {
+	color: aqua;
+}
+.text {
+	color: blue;
+}
+.paragraph {
+	color: forestgreen;
+}
+
+#content {
+	color: chartreuse;
+}
+
+p.paragraph.text {
+	color: crimson;
+}
+
+p, a{
+	color: darkblue;
+}
+
+p a {
+	color: crimson;
+}
+
+.paragraph .text {
+	color: darkgreen;
+}
+
+* {
+	color: blueviolet;
+}
+
+ol > li{
+	color: darkorange;
+}
+
+main > p{
+	color: aquamarine;
+}
+
+h1 + p{
+	color: rgb(17, 0, 252);
+}
+
+h1 ~ p{
+	color: gold;
+}
+
+a{
+	color: brown;
+}
